@@ -1,2 +1,2 @@
 let closeButton = document.getElementById('closeButton');
-closeButton.addEventListener('onClick', (e)=>{console.log('Clicked')});
+closeButton.addEventListener('Click', (e)=>{console.log('Clicked')});
