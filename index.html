@@ -1,31 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89257697-2"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-
-  		gtag('config', 'UA-89257697-2');
-	</script>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="Author" content="Vladimir Martynenko">
-	<title>Vladimir M</title>
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-	<h1>Hello world</h1>
-	<p>Some text!</p>
-	
-	
-	
-	<div id="cookieWarning">
-		This an annoying Cookie warning.
-		<span id="closeButton">X</div>
-	</div>
-	<script src="js/scripts.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Vladimir Martynenko">
+		<title>Not Creative Dev</title>
+		<style>
+			html, body {
+				font-family: Roboto;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			.main, .aside {
+				float: left;
+			}
+			.main {
+				width: 70%;
+			}
+			.aside {
+				width: 30%;
+			}
+			.content {
+				min-height: 100%;
+			}
+			.content-inside {
+				padding: 10px;
+				padding-bottom: 40px;
+			}
+			.footer {
+				text-align: center;
+				height: 40px;
+				margin-top: -40px;
+			}
+			.dreamy {
+				font-family: 'Flavors', cursive;
+				font-size: 4em;
+			}
+			@media screen and (max-width: 600px) {
+				.aside, .main {
+					width: 100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content"><div class="content-inside">
+			<div class="main">
+				<span class="dreamy">Still waiting for inspiration...</span>
+			</div>
+			<div class="aside">
+				<ul>
+					<li>
+						<a href="front-to-back">Front-to-back</a>
+					</li>
+				<ul>
+			</div>
+		</div></div>
+		<div class="footer">
+			<div>Welcome to NotCreative.dev</div>
+			<div>&copy;&nbsp;2019&nbsp;<a href="https://martynenko.me">Vladimir Martynenko</a></div>
+		</div>
+	</body>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Flavors" rel="stylesheet">
 </html>
